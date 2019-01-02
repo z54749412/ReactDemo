@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "actions": ["./src/redux/actions/index.js"],
+      "api": ["./src/api/index.js"],
+      "components": ["./components/"],
+      "histories": ["./tools/history.js"],
+      "pConfig": ["./config/project/index.js"],
+      "src": ["./src/"],
+      "tools": ["./tools/"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

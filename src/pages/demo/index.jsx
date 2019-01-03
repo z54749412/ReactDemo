@@ -4,7 +4,7 @@ const OtherComponent = lazy(() => import('./OtherComponent'));
 // const AnotherComponent = lazy(() => import('./AnotherComponent'));
 // import OtherComponent from './OtherComponent';
 import AnotherComponent from './AnotherComponent';
-import s from './index.scss';
+// import s from './index.scss';
 
 class IndexPage extends React.Component {
   constructor() {

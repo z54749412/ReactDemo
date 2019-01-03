@@ -33,7 +33,7 @@ class IndexPage extends React.Component {
 
 const mapStateToProps = (state) => {
   return {
-
+    state
   };
 };
 
